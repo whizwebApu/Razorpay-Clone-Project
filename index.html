@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>RazzorPay</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        .moveImage {
+            animation: 10s infinite linear moveImage;
+        }
+
+        @keyframes moveImage {
+            0% {
+                top: 0;
+            }
+
+            100% {
+                top: -50%;
+            }
+
+        }
+
+        .ctsection{
+            background-size: 100% 100%;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="overflow-x-hidden relative w-full">
+        <nav class="bg-deepBlue px-10">
+            <div class="relative w-[1080px] mx-auto flex items-center justify-between ">
+                <a href="" class="cursor-pointer ">
+                    <img src="./images/logo.svg" alt="" width="125px" height="30px" />
+                </a>
+                <ul class="  flex space-x-6">
+                    <li
+                        class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
+                        <a href="#">Payments</a>
+                        <div
+                            class="absolute  w-full h-1 bg-lightBlue bottom-0 hidden group-hover:block transition-all duration-200 ">
+                        </div>
+                    </li>
+                    <li
+                        class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
+                        <a href="#">Banking</a>
+                        <div
+                            class="absolute  w-full h-1 bg-lightBlue bottom-0 hidden group-hover:block transition-all duration-200 ">
+                        </div>
+                    </li>
+                    <li
+                        class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
+                        <a href="#">Corporate Card</a>
+
+                    </li>
+                    <li
+                        class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
+                        <a href="#">Payroll</a>
+
+                    </li>
+                    <li
+                        class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
+                        <a href="#">Resources</a>
+                        <div
+                            class="absolute  w-full h-1 bg-lightBlue bottom-0 hidden group-hover:block transition-all duration-200 ">
+                        </div>
+                    </li>
+                    <li
+                        class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
+                        <a href="#">Support</a>
+                        <div
+                            class="absolute  w-full h-1 bg-lightBlue bottom-0 hidden group-hover:block transition-all duration-200 ">
+                        </div>
+                    </li>
+                    <li
+                        class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
+                        <a href="#">Pricing</a>
+                        <div
+                            class="absolute  w-full h-1 bg-lightBlue bottom-0 hidden group-hover:block transition-all duration-200 ">
+                        </div>
+                    </li>
+                </ul>
+                <div class="flex gap-6">
+                    <img class="ml-10" src="./images/india-flag.svg" alt="" width="28px" height="28px" class="hidden lg:block"/>
+
+                    <button
+                        class="py-0 px-8 font-mullish text-white border border-y-pink-600 border-lightBlue rounded text-sm">
+                        Log in </button>
+                    <button
+                        class="py-3 px-5 font-mullish text-sm rounded bg-white text-lightBlue300 border border-x-pink-600 border-lightBlue transition-all duration-200 hover:text-lightBlue500 hover:text-sm/6 hidden lg:block">Sign
+                        Up</button>
+                </div>
+            </div>
+        </nav>
+
+        <section class="relative bg-deepBlue">
+            <div class="w-10/12 max-w-[1080px] flex flex-col justify-between items-center mx-auto  lg:flex-row">
+                <div class="  space-y-8">
+                    <h1 class="font-mullish font-bold text-[40px] leading-[1.2] text-white">Power your finance grow your
+                        Buisness</h1>
+                    <div class=" w-6 h-1 bg-green-300"></div>
+                    <p class="font-mullish text-[18px] leading-7 text-white opacity-70">Lorem ipsum dolor sit, amet
+                        consectetur adipisicing elit. Aut, voluptatum.</p>
+                    <button
+                        class="bg-lightBlue text-white font-mullish rounded-md font-bold hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px]">Sign
+                        Up Now</button>
+                </div>
+                <img src="./images 2/hero-illustration.jpg" alt="" class="max-w-[580px]">
+            </div>
+            <div class="w-[1290px] absolute left-0 right-0">
+                <img src="./images 2/hero-shape.svg" alt="" class="w-full ">
+            </div>
+        </section>
+
+        <section class=" relative mt-[190px] overflow-hideen">
+            <img src="./images 2/feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167"
+                class="absolute -top-[15rem] left-[5rem] inline-block -z-10" />
+            <img src="./images 2/feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167"
+                class="absolute -top-[3.5rem] right-0 inline-block rotate-180" />
+            <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
+                <h2 class="font-mullish text-center text-2xl leading-[1.2] font-bold">Accepet Payments with RazzorPay
+                    Payment Status</h2>
+                <div class="w-6 h-1 bg-green-400 mx-auto mt-4 mb-6"></div>
+
+                <div class="w-full min-h-[520px] bg-white flex rounded-md relative p-10 py-12 border">
+                    <div class="flex flex-col justify-between  w-full">
+                        <h3 class="font-mullish text-[28px] leading-10 font-bold max-w-[500px]">
+                            SuperCharge Your buisnee with the all- powerfull
+                            <span class="text-lightBlue">Payment Gateway</span>
+                        </h3>
+                        <ul class="space-y-2">
+                            <li class="font-mullish flex items-center space-x-2">
+                                <i data-feather="check" class="text-greenLight"></i>
+                                <Span>Lorem, ipsum dolor.</Span>
+                            </li>
+                            <li class="font-mullish flex items-center space-x-2">
+                                <i data-feather="check" class="text-greenLight"></i>
+                                <span>Lorem ipsum dolor sit amet.</span>
+
+                            </li>
+                            <li class="font-mullish flex items-center space-x-2">
+                                <i data-feather="check" class="text-greenLight"></i>
+                                <span>Lorem ipsum dolor sit.</span>
+
+                            </li>
+                            <li class="font-mullish flex items-center space-x-2">
+                                <i data-feather="check" class="text-greenLight"></i>
+                                <span>Lorem ipsum dolor sit amet.</span>
+                            </li>
+                            <li class="font-mullish flex items-center space-x-2">
+                                <i data-feather="check" class="text-greenLight"></i>
+                                <span>Lorem, ipsum dolor sit amet </span>
+                            </li>
+                            <li class="font-mullish flex items-center space-x-2">
+                                <i data-feather="check" class="text-greenLight"></i>
+                                <span>Lorem, ipsum.</span>
+
+                            </li>
+                        </ul>
+
+                        <div class="flex flex-row items-center space-x-4">
+                            <button
+                                class="bg-lightBlue w-56 text-white py-[18px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200">Sign
+                                Up Now</button>
+                            <div class="flex items-center cursor-pointer group">
+                                <a href="#"
+                                    class="font-mulish font-bold text-lightBlue group-hover:text-grayBlue transition-all duration-200">Know
+                                    More</a>
+                                <i data-feather="chevron-right"
+                                    class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./images 2/payment-suite.png" alt="" class="max-w-[550px] absolute right-0 bottom-0">
+                </div>
+                <div class="w-full grid grid-cols-3 gap-4 mt-10">
+                    <div class="w-full min-h-[15rem] relative cursor-pointer group hover:shadow-md">
+                        <img src="./images 2/payment-link-icon.svg" alt=""
+                            class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 group-hover:bg-sky-300">
+                        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                            style="stroke-opacity: 0.15 ">
+                            <path d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z" fill="#fff"></path>
+                        </svg>
+                        <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                            <div>
+                                <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">
+                                    Payment
+                                    Links</h3>
+                                <p class="font-mullish text-gray-500 mt-6">Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Perferendis, asperiores?</p>
+                            </div>
+                            <div class="flex items-center cursor-pointer group">
+                                <a href="#"
+                                    class="font-mulish font-bold text-lightBlue group-hover:text-grayBlue transition-all duration-200">Know
+                                    More</a>
+                                <i data-feather="chevron-right"
+                                    class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full min-h-[15rem] relative cursor-pointer group hover:shadow-md">
+                        <img src="./images 2/payment-link-icon.svg" alt=""
+                            class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 group-hover:bg-sky-300">
+                        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                            style="stroke-opacity: 0.15 ">
+                            <path d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z" fill="#fff"></path>
+                        </svg>
+                        <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                            <div>
+                                <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">
+                                    Payment
+                                    Links</h3>
+                                <p class="font-mullish text-gray-500 mt-6">Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Perferendis, asperiores?</p>
+                            </div>
+                            <div class="flex items-center cursor-pointer group">
+                                <a href="#"
+                                    class="font-mulish font-bold text-lightBlue group-hover:text-grayBlue transition-all duration-200">Know
+                                    More</a>
+                                <i data-feather="chevron-right"
+                                    class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full min-h-[15rem] relative cursor-pointer group hover:shadow-md">
+                        <img src="./images 2/payment-link-icon.svg" alt=""
+                            class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 group-hover:bg-sky-300">
+                        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                            style="stroke-opacity: 0.15 ">
+                            <path d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z" fill="#fff"></path>
+                        </svg>
+                        <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                            <div>
+                                <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">
+                                    Payment
+                                    Links</h3>
+                                <p class="font-mullish text-gray-500 mt-6">Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Perferendis, asperiores?</p>
+                            </div>
+                            <div class="flex items-center cursor-pointer group">
+                                <a href="#"
+                                    class="font-mulish font-bold text-lightBlue group-hover:text-grayBlue transition-all duration-200">Know
+                                    More</a>
+                                <i data-feather="chevron-right"
+                                    class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full min-h-[15rem] relative cursor-pointer group hover:shadow-md">
+                        <img src="./images 2/payment-link-icon.svg" alt=""
+                            class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 group-hover:bg-sky-300">
+                        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                            style="stroke-opacity: 0.15 ">
+                            <path d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z" fill="#fff"></path>
+                        </svg>
+                        <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                            <div>
+                                <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">
+                                    Payment
+                                    Links</h3>
+                                <p class="font-mullish text-gray-500 mt-6">Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Perferendis, asperiores?</p>
+                            </div>
+                            <div class="flex items-center cursor-pointer group">
+                                <a href="#"
+                                    class="font-mulish font-bold text-lightBlue group-hover:text-grayBlue transition-all duration-200">Know
+                                    More</a>
+                                <i data-feather="chevron-right"
+                                    class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full min-h-[15rem] relative cursor-pointer group hover:shadow-md">
+                        <img src="./images 2/payment-link-icon.svg" alt=""
+                            class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 group-hover:bg-sky-300">
+                        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                            style="stroke-opacity: 0.15 ">
+                            <path d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z" fill="#fff"></path>
+                        </svg>
+                        <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                            <div>
+                                <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">
+                                    Payment
+                                    Links</h3>
+                                <p class="font-mullish text-gray-500 mt-6">Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Perferendis, asperiores?</p>
+                            </div>
+                            <div class="flex items-center cursor-pointer group">
+                                <a href="#"
+                                    class="font-mulish font-bold text-lightBlue group-hover:text-grayBlue transition-all duration-200">Know
+                                    More</a>
+                                <i data-feather="chevron-right"
+                                    class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full min-h-[15rem] relative cursor-pointer group hover:shadow-md">
+                        <img src="./images 2/payment-link-icon.svg" alt=""
+                            class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 group-hover:bg-sky-300">
+                        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                            style="stroke-opacity: 0.15 ">
+                            <path d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z" fill="#fff"></path>
+                        </svg>
+                        <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                            <div>
+                                <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">
+                                    Payment
+                                    Links</h3>
+                                <p class="font-mullish text-gray-500 mt-6">Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Perferendis, asperiores?</p>
+                            </div>
+                            <div class="flex items-center cursor-pointer group">
+                                <a href="#"
+                                    class="font-mulish font-bold text-lightBlue group-hover:text-grayBlue transition-all duration-200">Know
+                                    More</a>
+                                <i data-feather="chevron-right"
+                                    class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class=" bg-[url(./images/feature-section-2BG.svg)] bg-no-repeat bg-cover pt-[20rem] pb-[500px] mt-14">
+            <div class="w-10/12 max-w-[1080px] pt-4 mx-auto relative">
+                <h2 class="font-mullish text-center text-2xl leading-[1.2] font-bold text-white">
+                    Explore RazorPay Buisness Banking
+                </h2>
+                <div class="w-6 h-1 bg-green-400 mx-auto mt-4 mb-16"></div>
+                <div class="w-full min-h-[440px] flex flex-col relative">
+                    <img src="./images 3/x-flame-1.png" alt="" loading="lazy"
+                        class="absolute -top-[142px] -left-[140px] w-[200px]">
+                    <img src="./images 3/x-flame-2.png" alt="" loading="lazy"
+                        class="absolute top-[270px] -right-[100px] w-[200px]">
+
+                    <div
+                        class="w-full min-h-[520px] text-white flex rounded-md relative p-10 py-12 bg-[#181c2e] border border-slate-600">
+                        <div class="flex flex-col justify-between items-start h-full w-full space-y-11">
+                            <h3 class="font-mullish text-[28px] leading-10 font-bold max-w-[500px]">Manage your
+                                company's
+                                finances with <img src="./images 3/razorpayX.svg" alt="" loading="lazy" width="168px"
+                                    height="32px" class="inline">
+                                <span class="text-greenLight">Buisness Banking</span>
+                            </h3>
+                            <ul class="space-y-2">
+                                <li class="font-mullish flex items-center space-x-2">
+                                    <i data-feather="check" class="text-greenLight"></i>
+                                    <Span>Lorem, ipsum dolor.</Span>
+                                </li>
+                                <li class="font-mullish flex items-center space-x-2">
+                                    <i data-feather="check" class="text-greenLight"></i>
+                                    <span>Lorem ipsum dolor sit amet.</span>
+
+                                </li>
+                                <li class="font-mullish flex items-center space-x-2">
+                                    <i data-feather="check" class="text-greenLight"></i>
+                                    <span>Lorem ipsum dolor sit.</span>
+
+                                </li>
+                                <li class="font-mullish flex items-center space-x-2">
+                                    <i data-feather="check" class="text-greenLight"></i>
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </li>
+                            </ul>
+                            <div class="flex flex-row items-center space-x-4">
+                                <button
+                                    class="bg-lightBlue w-56 text-white py-[14px] px-[18px] rounded-md font-mullish items-center font-bold justify-start md:pr-[90px] hover:bg-lightBlue500 transition-all duration-200 relative">Sign
+                                    Up
+                                    <div
+                                        class="w-12 h-[90px] bg-greenLight absolute right-6 -top-5 skew-x-[20deg] flex justify-center items-center">
+                                        <svg viewBox="0 0 24 24" focusable="false"
+                                            class="w-[20px] h-[20px] -skew-x-[20deg] ">
+                                            <path fill="currentColor"
+                                                d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                                        </svg>
+
+                                    </div>
+                                </button>
+                                <div class="flex items-center cursor-pointer group ">
+                                    <a href="#"
+                                        class="font-mulish font-bold text-lightBlue group-hover:text-sky-300 transition-all duration-200">Know
+                                        More</a>
+                                    <i data-feather="chevron-right"
+                                        class="w-5 h-5 text-lightBlue500 group-hover:text-sky-300 transition-all duration-200"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./images 3/buisness-banking.png" alt="" loading="lazy"
+                            class="max-w-[550px] absolute right-0 bottom-0 ">
+                    </div>
+                    <div class="grid grid-cols-3 w-full gap-4 my-14">
+                        <div
+                            class="w-full min-h-[15rem] relative cursor-pointer group hover:shadow-2xl hover:scale-105 transition-all duration-200">
+                            <img src="./images 3/current-icon.svg" alt=""
+                                class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 group-hover:bg-sky-300">
+                            <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg"
+                                preserveAspectRatio="none"
+                                class="stroke-1 stroke-[#525a76] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200"
+                                style="stroke-opacity: 0.8">
+                                <path d="m 0 6 
+                      a 6 6 0 0 1 6 -6 
+                      h 250.32501220703125 
+                      a 16 16 0 0 1 11 5 
+                      l 77 77 
+                      a 16 16 0 0 1 5 11 
+                      v 126 
+                      a 6 6 0 0 1 -6 6 
+                      h -337.32501220703125 
+                      a 6 6 0 0 1 -6 -6 
+                      z" fill="#181C2E"></path>
+                            </svg>
+
+                            <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                                <div>
+                                    <h3 class="font-mullish font-bold text-white leading-[1.2] text-[1.375rem]">
+                                        Payment
+                                        Links</h3>
+                                    <p class="font-mullish text-gray-500 mt-6">Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Perferendis, asperiores?</p>
+                                </div>
+                                <div class="flex items-center cursor-pointer group">
+                                    <a href="#"
+                                        class="font-mulish font-bold text-lightBlue group-hover:text-grayBlue transition-all duration-200">Know
+                                        More</a>
+                                    <i data-feather="chevron-right"
+                                        class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="w-full min-h-[15rem] relative cursor-pointer group hover:shadow-2xl hover:scale-105 transition-all duration-200">
+                            <img src="./images 3/current-icon.svg" alt=""
+                                class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 group-hover:bg-sky-300">
+                            <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg"
+                                preserveAspectRatio="none"
+                                class="stroke-1 stroke-[#525a76] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200"
+                                style="stroke-opacity: 0.8">
+                                <path d="m 0 6 
+                      a 6 6 0 0 1 6 -6 
+                      h 250.32501220703125 
+                      a 16 16 0 0 1 11 5 
+                      l 77 77 
+                      a 16 16 0 0 1 5 11 
+                      v 126 
+                      a 6 6 0 0 1 -6 6 
+                      h -337.32501220703125 
+                      a 6 6 0 0 1 -6 -6 
+                      z" fill="#181C2E"></path>
+                            </svg>
+
+                            <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                                <div>
+                                    <h3 class="font-mullish font-bold text-white leading-[1.2] text-[1.375rem]">
+                                        Payment
+                                        Links</h3>
+                                    <p class="font-mullish text-gray-500 mt-6">Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Perferendis, asperiores?</p>
+                                </div>
+                                <div class="flex items-center cursor-pointer group">
+                                    <a href="#"
+                                        class="font-mulish font-bold text-lightBlue group-hover:text-grayBlue transition-all duration-200">Know
+                                        More</a>
+                                    <i data-feather="chevron-right"
+                                        class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="w-full min-h-[15rem] relative cursor-pointer group hover:shadow-2xl hover:scale-105 transition-all duration-200">
+                            <img src="./images 3/current-icon.svg" alt=""
+                                class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 group-hover:bg-sky-300">
+                            <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg"
+                                preserveAspectRatio="none"
+                                class="stroke-1 stroke-[#525a76] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200"
+                                style="stroke-opacity: 0.8">
+                                <path d="m 0 6 
+                      a 6 6 0 0 1 6 -6 
+                      h 250.32501220703125 
+                      a 16 16 0 0 1 11 5 
+                      l 77 77 
+                      a 16 16 0 0 1 5 11 
+                      v 126 
+                      a 6 6 0 0 1 -6 6 
+                      h -337.32501220703125 
+                      a 6 6 0 0 1 -6 -6 
+                      z" fill="#181C2E"></path>
+                            </svg>
+
+                            <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                                <div>
+                                    <h3 class="font-mullish font-bold text-white leading-[1.2] text-[1.375rem]">
+                                        Payment
+                                        Links</h3>
+                                    <p class="font-mullish text-gray-500 mt-6">Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Perferendis, asperiores?</p>
+                                </div>
+                                <div class="flex items-center cursor-pointer group">
+                                    <a href="#"
+                                        class="font-mulish font-bold text-lightBlue group-hover:text-grayBlue transition-all duration-200">Know
+                                        More</a>
+                                    <i data-feather="chevron-right"
+                                        class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="w-full flex flex-row items-center justify-evenly border border-slate-700 mb-24 gap-y-6 p-2 relative rounded-md">
+                        <p class="text-white font-mullish text-xl"> Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Magnam,
+                            <span class="font-bold">Lorem, ipsum dolor.</span>
+                        </p>
+                        <button
+                            class="bg-lightBlue w-56 text-white py-[14px] px-[18px] rounded-md font-mullish items-center font-bold justify-start md:pr-[90px] hover:bg-lightBlue500 transition-all duration-200 relative">
+                            Check out the demo
+                            <div
+                                class="w-12 h-[80px] bg-greenLight absolute right-6 -top-1 skew-x-[20deg] flex justify-center items-center">
+                                <svg viewBox="0 0 24 24" focusable="false" class="w-[20px] h-[20px] -skew-x-[20deg] ">
+                                    <path fill="currentColor"
+                                        d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                                </svg>
+
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white relative">
+            <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
+                <img src="./images 3/feature-section1-dottedrows.png" alt="" loading="lazy"
+                    class="absolute w-[233px] left-[350px] -top-[6rem] z-10">
+                <img src="./images 3/feature-section1-dottedrows.png" alt="" loading="lazy"
+                    class="absolute w-[233px] -right-[3.5rem] -top-[6rem] z-10">
+                <div class="w-full grid grid-cols-3 gap-y-10 gap-x-4 relative  z-[100]">
+                    <div class="relative flex items-center z-0 transition-all duration-200">
+                        <h2 class="font-mullish text-deepBlueHead font-extrabold text-4xl leading-[3.375rem]"> New in
+                            the
+                            <span class="text-lightBlue">Razorpay</span>
+                            Product Suite
+                        </h2>
+                    </div>
+                    <div
+                        class=" p-10 bg-[url(/images/instant-settlement-bg.svg)] w-full max-h-[300px] cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 hover:bg-[url(/images/instant-settlement-bghover.svg)] bg-white shadow-sm hover:shadow-md">
+                        <img src="./images 3/razorpayXicon.svg" alt="" class="w-10 h-10 ">
+                        <h3 class="font-mullish text-lg font-bold pt-4">Corporate cards</h3>
+                        <p class="font-mullish py-3 text-gray-500 leading-normal">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Rerum, harum.</p>
+                        <div class="flex items-center cursor-pointer group">
+                            <a href="#"
+                                class="font-mulish font-bold text-lightBlue group-hover:text-grayBlue transition-all duration-200">Know
+                                More</a>
+                            <i data-feather="chevron-right"
+                                class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                        </div>
+                    </div>
+                    <div
+                        class=" p-10 bg-[url(/images/instant-settlement-bg.svg)] w-full max-h-[300px] cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 hover:bg-[url(/images/instant-settlement-bghover.svg)] bg-white  shadow-sm hover:shadow-md">
+                        <img src="./images 3/razorpayXicon.svg" alt="" class="w-10 h-10 ">
+                        <h3 class="font-mullish text-lg font-bold pt-4">Corporate cards</h3>
+                        <p class="font-mullish py-3 text-gray-500 leading-normal">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Rerum, harum.</p>
+                        <div class="flex items-center cursor-pointer group">
+                            <a href="#"
+                                class="font-mulish font-bold text-lightBlue group-hover:text-grayBlue transition-all duration-200">Know
+                                More</a>
+                            <i data-feather="chevron-right"
+                                class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                        </div>
+                    </div>
+                    <div
+                        class=" p-10 bg-[url(/images/instant-settlement-bg.svg)] w-full max-h-[300px] cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 hover:bg-[url(/images/instant-settlement-bghover.svg)] bg-white  shadow-sm hover:shadow-md">
+                        <img src="./images 3/razorpayXicon.svg" alt="" class="w-10 h-10 ">
+                        <h3 class="font-mullish text-lg font-bold pt-4">Corporate cards</h3>
+                        <p class="font-mullish py-3 text-gray-500 leading-normal">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Rerum, harum.</p>
+                        <div class="flex items-center cursor-pointer group">
+                            <a href="#"
+                                class="font-mulish font-bold text-lightBlue group-hover:text-grayBlue transition-all duration-200">Know
+                                More</a>
+                            <i data-feather="chevron-right"
+                                class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                        </div>
+                    </div>
+                    <div
+                        class=" p-10 bg-[url(/images/instant-settlement-bg.svg)] w-full max-h-[300px] cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 hover:bg-[url(/images/instant-settlement-bghover.svg)] bg-white  shadow-sm hover:shadow-md">
+                        <img src="./images 3/razorpayXicon.svg" alt="" class="w-10 h-10 ">
+                        <h3 class="font-mullish text-lg font-bold pt-4">Corporate cards</h3>
+                        <p class="font-mullish py-3 text-gray-500 leading-normal">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Rerum, harum.</p>
+                        <div class="flex items-center cursor-pointer group">
+                            <a href="#"
+                                class="font-mulish font-bold text-lightBlue group-hover:text-grayBlue transition-all duration-200">Know
+                                More</a>
+                            <i data-feather="chevron-right"
+                                class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                        </div>
+                    </div>
+                    <div
+                        class=" p-10 bg-[url(/images/instant-settlement-bg.svg)] w-full max-h-[300px] cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 hover:bg-[url(/images/instant-settlement-bghover.svg)] bg-white  shadow-sm hover:shadow-md">
+                        <img src="./images 3/razorpayXicon.svg" alt="" class="w-10 h-10 ">
+                        <h3 class="font-mullish text-lg font-bold pt-4">Corporate cards</h3>
+                        <p class="font-mullish py-3 text-gray-500 leading-normal">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Rerum, harum.</p>
+                        <div class="flex items-center cursor-pointer group">
+                            <a href="#"
+                                class="font-mulish font-bold text-lightBlue group-hover:text-grayBlue transition-all duration-200">Know
+                                More</a>
+                            <i data-feather="chevron-right"
+                                class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section
+            class="bg-[url(./images/core-features-sectionBg.svg)] w-full pt-[12rem] pb-[12rem] bg-center bg-no-repeat bg-cover mt-14 relative">
+            <div class="w-11/12 relative max-w[1080px] mx-auto pt-4">
+                <h2 class="font-mullish text-white font-bold text-center text-2xl ">Features</h2>
+                <div class="w-6 h-1 bg-green-400 mx-auto mt-4 mb-6"></div>
+                <p class="font-mullish text-center max-w-[450px] text-white mx-auto">Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Deserunt voluptatibus quasi perferendis doloremque? </p>
+                <div class="grid grid-cols-4 gap-[2rem] mt-8">
+                    <div>
+                        <img src="./images 3/instant-activation-icon.svg" alt="">
+                        <h3 class="font-mullish text-white text-lg font-bold my-4">Instant Activation</h3>
+                        <p class="font-mullish text-white opacity-80">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quae, voluptatum!</p>
+                    </div>
+                    <div>
+                        <img src="./images 3/instant-activation-icon.svg" alt="">
+                        <h3 class="font-mullish text-white text-lg font-bold my-4">Instant Activation</h3>
+                        <p class="font-mullish text-white opacity-80">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quae, voluptatum!</p>
+                    </div>
+                    <div>
+                        <img src="./images 3/instant-activation-icon.svg" alt="">
+                        <h3 class="font-mullish text-white text-lg font-bold my-4">Instant Activation</h3>
+                        <p class="font-mullish text-white opacity-80">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quae, voluptatum!</p>
+                    </div>
+                    <div>
+                        <img src="./images 3/instant-activation-icon.svg" alt="">
+                        <h3 class="font-mullish text-white text-lg font-bold my-4">Instant Activation</h3>
+                        <p class="font-mullish text-white opacity-80">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quae, voluptatum!</p>
+                    </div>
+                    <div>
+                        <img src="./images 3/instant-activation-icon.svg" alt="">
+                        <h3 class="font-mullish text-white text-lg font-bold my-4">Instant Activation</h3>
+                        <p class="font-mullish text-white opacity-80">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quae, voluptatum!</p>
+                    </div>
+                    <div>
+                        <img src="./images 3/instant-activation-icon.svg" alt="">
+                        <h3 class="font-mullish text-white text-lg font-bold my-4">Instant Activation</h3>
+                        <p class="font-mullish text-white opacity-80">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quae, voluptatum!</p>
+                    </div>
+                    <div>
+                        <img src="./images 3/instant-activation-icon.svg" alt="">
+                        <h3 class="font-mullish text-white text-lg font-bold my-4">Instant Activation</h3>
+                        <p class="font-mullish text-white opacity-80">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quae, voluptatum!</p>
+                    </div>
+                    <div>
+                        <img src="./images 3/instant-activation-icon.svg" alt="">
+                        <h3 class="font-mullish text-white text-lg font-bold my-4">Instant Activation</h3>
+                        <p class="font-mullish text-white opacity-80">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quae, voluptatum!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-[#f5f8fe] relative pt-40 pb-12 -mt-[200px] -z-[100]">
+            <div class="w-11/12 max-w[1080px] relative mx-auto flex flex-row">
+                <div class="flex flex-col justify-center max-w-[calc(100%-500px)] ">
+                    <h2 class="font-mullish font-bold text-2xl text-deepBlueHead">Join the 50,00,0000+ buisness using
+                        RazorPay</h2>
+                    <div class="w-6 h-1 bg-green-400  my-4 mb-10"></div>
+                    <p class="font-mullish opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                        possimus fuga magnam, ipsam laboriosam ratione accusantium molestiae neque quas odit modi id
+                        magni commodi quibusdam atque ullam itaque sunt eligendi fugit sequi eum ea rem voluptate?
+                        Molestias sit laudantium at officiis illum ullam est culpa ea repellat, perferendis a dolorem.
+                    </p>
+                    <br>
+                    <p class="font-mullish opacity-75">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                        labore!</p>
+                </div>
+
+                <div class="h-[500px] w-[500px] relative overflow-y-hidden">
+                    <div style="background: linear-gradient(180deg, #f4f8ff, #fff0)"
+                        class="absolute w-full h-[150px] top-0 z-50"></div>
+
+                    <img src="./images 4/comanies.png" alt="" width="500px"
+                        class="absolute  h-auto object-cover moveImage">
+
+                    <div style="background: linear-gradient(0deg, #f4f8ff, #fff0)"
+                        class="absolute w-full h-[150px] bottom-0 z-50"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="relative ">
+            <div class="w-11/12 max-w-[1300] mx-auto relative py-20">
+                <img src="./images 4/feature-section1-dottedrows.png" alt="" class="absolute w-[200px] top-[8rem] left-[2rem] -z-10">
+                <h2 class="font-mullish font-bold text-2xl text-deepBlueHead text-center">An Experience <br>
+                    people Love to talk About</h2>
+                <div class="w-6 h-1 bg-green-400 mx-auto my-4 mb-10 "></div>
+            
+            <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute left-0 top-1/2 flex justify-center items-center">
+                <div class="w-[65%] h-[65%] bg-[#f4f8ff]rounded-full flex justify-center items-center mix-blend-multiply">
+                    <i data-feather="chevron-right"
+                                class="stroke-[5px] w6 h-6 md:w-10 md:h-10 text-gray-400 rotate-180 "></i>
+                </div>
+            </button>
+            <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute right-0 top-1/2 flex justify-center items-center">
+                <div class="w-[65%] h-[65%] bg-[#f4f8ff]rounded-full flex justify-center items-center mix-blend-multiply">
+                     <i data-feather="chevron-right"
+                                class="stroke-[5px] w6 h-6 md:w-10 md:h-10 text-gray-400"></i>
+                </div>
+            </button>
+
+            <div class="flex flex-row max-w-[960px] items-center mx-auto my-20 space-x-[10rem]">
+                <img src="./images 4/testimonial.jpg" alt="" loading="lazy" height="320px" width="320px" class="rounded-xl mx-16">
+                <div class="max-w-[400px]">
+                    <img src="./images 4/quotes.svg" alt="" width="35px" height="40px" class="-mb-2">
+                    <p class="font-mullish text-3xl font-extralight">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <a href="#" class="text-gray-500 italic underline">Learn More</a>
+                    <h3 class="font-mullish font-extrabold text-2xl">Lorem ipsum</h3>
+                    <p class="font-mullish font-medium">Lorem ipsum dolor sit.</p>
+                    <img src="./images 4/fake-company-logo.png" alt="" width="80px" height="40px">
+                </div>
+            </div>
+
+            <div class=" w-full flex flex-row mx-auto space-x-2 justify-center">
+                <div class="h-[10px] w-[10px] rounded-full bg-gray-500"></div>
+                <div class="h-[10px] w-[10px] rounded-full bg-lightBlue300"></div>
+                <div class="h-[10px] w-[10px] rounded-full bg-gray-500"></div>
+                <div class="h-[10px] w-[10px] rounded-full bg-gray-500"></div>
+                <div class="h-[10px] w-[10px] rounded-full bg-gray-500"></div>
+                <div class="h-[10px] w-[10px] rounded-full bg-gray-500"></div>
+            </div>
+
+            </div>
+
+        </section>
+<section class="bg-[url(/images/CTABg.svg)] w-full h-full bg-no-repeat bg-cover relative ctsection min-h-[510px]">
+    <div class="w-11/12 max-w-[1080px] relative flex flex-row items-center space-x-20 justify-between mx-auto pt-16">
+        <div class="flex flex-col gap-5 mt-12 max-w-[600px]">
+            <h2 class="font-mullish font-bold text-2xl text-white">Supercharge your buisness with Razorpay</h2>
+            <div class="w-6 h-1 bg-greenLight"></div>
+            <p class="font-mulish text-white ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde temporibus possimus minima atque ad. Reprehenderit, maxime? Impedit dignissimos fugiat quas!</p>
+            <ul class="flex flex-row gap-x-11 gap-y-3 space-y-2 text-white">
+                <li class="font-mullish text-white flex flex-row flex-wrap">
+                    <i data-feather="check" class="text-greenLight"></i>
+                    <span>Lorem, ipsum.</span>
+                </li>
+                <li class="font-mullish text-white flex flex-row flex-wrap">
+                    <i data-feather="check" class="text-greenLight"></i>
+                    <span>Lorem, ipsum dolor.</span>
+                </li>
+                <li class="font-mullish text-white flex flex-row flex-wrap">
+                    <i data-feather="check" class="text-greenLight"></i>
+                    <span>Lorem, ipsum.</span>
+                </li>
+                <li class="font-mullish text-white flex flex-row flex-wrap">
+                    <i data-feather="check" class="text-greenLight"></i>
+                    <span>Lorem, ipsum dolor.</span>
+                </li>
+            </ul>
+            <button class="min-w-[32px] font-mullish text-sm font-bold bg-white text-lightBlue300 border flex rounded-sm items-center hover:text-lightBlue500 py-3 px-4 transition-all duration-200 place-self-start">
+                Sign Up
+            </button>
+
+           
+        </div>
+         <img src="./images 4/ctaImg.svg" alt="" width="240px" height="282px" class="mt-16 pt-2">
+    </div>
+</section>
+<footer class="relative bg-sky-100">
+    <div class="w-11/12 max-w-[1300] mx-auto relative py-20 mt-10 px-32">
+        <div class="grid grid-cols-4 gap-5 justify-center items-center">
+            <div class="flex flex-col space-y-10">
+                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia perspiciatis deleniti numquam debitis quas earum.</div>
+                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia perspiciatis deleniti numquam debitis quas earum.</div>
+                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia perspiciatis deleniti numquam debitis quas earum.</div>
+                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia perspiciatis deleniti numquam debitis quas earum.</div>
+            </div>
+            <div class="flex flex-col space-y-10">
+                <ul>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>lorem3</li>
+                </ul>
+                <ul>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>lorem3</li>
+                </ul>
+                <ul>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>lorem3</li>
+                </ul>
+            </div>
+            <div class="flex flex-col space-y-10">
+                <ul>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>lorem3</li>
+                </ul>
+                <ul>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>lorem3</li>
+                </ul>
+                <ul>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>lorem3</li>
+                </ul>
+            </div>
+            <div class="flex flex-col space-y-10">
+                <ul>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>lorem3</li>
+                </ul>
+                <ul>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>lorem3</li>
+                </ul>
+                <ul>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>lorem3</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</footer>
+    </div>
+    <script>
+        feather.replace()
+    </script>
+</body>
+
+</html>
